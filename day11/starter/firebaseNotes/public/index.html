@@ -41,8 +41,15 @@
                         </h2>
                         <br>
                         <p class="has-text-centered">
-                            <a class="button is-medium is-info is-outlined">
-                                Sign In
+                            <a class="button is-medium is-info is-outlined" onclick="signIn()">
+                                Sign In With Google
+                            </a>
+                            <p>or</p>
+                            <p>login with username and password:</p>
+                            <input class="input is-medium" id="email" placeholder="email">
+                            <input class="input is-medium" id="password" placeholder="password" type="password">
+                            <a class="button is-medium is-info is-outlined" onclick="signInWithEmail()">
+                                Sign in With Email/Password
                             </a>
                         </p>
                     </div>
@@ -50,6 +57,6 @@
             </div>
         </div>
     </section>
-    
+    <script src="js/signIn.js"></script>
   </body>
 </html>
