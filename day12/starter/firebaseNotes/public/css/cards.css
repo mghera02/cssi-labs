@@ -9,7 +9,7 @@ input::placeholder {
 /* Card start*/
 .card {
   overflow: hidden;
-  background: yellow;
+  background: white;
   /* color: var(--bg); */
 }
 
@@ -32,4 +32,8 @@ input::placeholder {
 .fa {
   color: ghostwhite;
   margin: 10px
+}
+
+.searchBtn{
+    margin-bottom:1vw;
 }
